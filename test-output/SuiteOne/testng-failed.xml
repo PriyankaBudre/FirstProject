@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteOne]">
+  <test name="TestOne(failed)">
+    <parameter name="Input_BirthMonth" value="June"/>
+    <parameter name="Input_FirstName" value="AsmtFn"/>
+    <parameter name="Input_Gender" value="Female"/>
+    <parameter name="Input_BirthDay" value="4"/>
+    <parameter name="Input_RecoveryEmail" value="xyz@gmail.com"/>
+    <parameter name="Input_Country" value="India"/>
+    <parameter name="Input_LastName" value="AsmtLn"/>
+    <parameter name="Input_Phone" value="9564534786"/>
+    <parameter name="Input_BirthYear" value="1990"/>
+    <parameter name="Input_Pwd" value="DPinchu@28"/>
+    <parameter name="Input_UserName" value="piu.priyanka05"/>
+    <parameter name="Input_PwdCondfirm" value="GLion@40"/>
+    <classes>
+      <class name="com.amdocs.gmail.suite.GmailTestSuite">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.amdocs.gmail.suite.GmailTestSuite -->
+    </classes>
+  </test> <!-- TestOne(failed) -->
+</suite> <!-- Failed suite [SuiteOne] -->
